@@ -1,0 +1,94 @@
+#!/bin/zsh
+
+fpath=($DOTFILES/zsh/plugins $fpath)
+
+# +------------+
+# | NAVIGATION |
+# +------------+
+setopt AUTO_CD              # Go to folder path without using cd.
+setopt AUTO_PUSHD           # Push the old directory onto the stack on cd.
+setopt PUSHD_IGNORE_DUPS    # Do not store duplicates in the stack.
+setopt PUSHD_SILENT         # Do not print the directory stack after pushd or popd.
+setopt CORRECT              # Spelling correction
+setopt CDABLE_VARS          # Change directory to a path stored in a variable.
+setopt EXTENDED_GLOB        # Use extended globbing syntax.
+
+autoload -Uz bd; bd
+
+# +---------+
+# | HISTORY |
+# +---------+
+setopt EXTENDED_HISTORY          # Write the history file in the ':start:elapsed;command' format.
+setopt SHARE_HISTORY             # Share history between all sessions.
+setopt HIST_EXPIRE_DUPS_FIRST    # Expire a duplicate event first when trimming history.
+setopt HIST_IGNORE_DUPS          # Do not record an event that was just recorded again.
+setopt HIST_IGNORE_ALL_DUPS      # Delete an old recorded event if a new event is a duplicate.
+setopt HIST_FIND_NO_DUPS         # Do not display a previously found event.
+setopt HIST_IGNORE_SPACE         # Do not record an event starting with a space.
+setopt HIST_SAVE_NO_DUPS         # Do not write a duplicate event to the history file.
+setopt HIST_VERIFY               # Do not execute immediately upon history expansion.
+
+# +--------+
+# | COLORS |
+# +--------+
+# Override colors
+test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
+
+# +---------+
+# | ALIASES |
+# +---------+
+source $DOTFILES/aliases/aliases
+
+# +---------+
+# | SCRIPTS |
+# +---------+
+source $DOTFILES/zsh/scripts.zsh # Scripts
+
+# +--------+
+# | PROMPT |
+# +--------+
+fpath=($DOTFILES/zsh/prompt $fpath)
+autoload -Uz prompt_purification_setup; prompt_purification_setup
+
+# +-----------+
+# | PROFILING |
+# +-----------+
+zmodload zsh/zprof
+
+# +------------+
+# | COMPLETION |
+# +------------+
+source $DOTFILES/zsh/completion.zsh
+
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+source $DOTFILES/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# +-----+
+# | Git |
+# +-----+
+# Add command gitit to open Github repo in default browser from a local repo
+autoload -U gitit
+
+# +-----+
+# | FZF |
+# +-----+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source $DOTFILES/zsh/scripts_fzf.zsh # fzf Scripts
+
+# Startup
+if [[ "$(tty)" = "/dev/tty1" ]];
+then
+    pgrep i3 || exec ssh-agent startx "$XDG_CONFIG_HOME/X11/xinitrc"
+fi
+
+# +---------------------+
+# | SYNTAX HIGHLIGHTING |
+# +---------------------+
+source $DOTFILES/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
