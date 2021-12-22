@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "name": "hypergoogle",
+    "version": "0.0.2",
+    "description": "Search Google from Hyper",
+    "keywords": [
+      "hyperterm",
+      "hyper",
+      "google"
+    ],
+    "author": {
+      "name": "Thomas O'Brien",
+      "email": "tbobrien612@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thomasbeta/hypergoogle"
+    },
+    "_registry": "npm",
+    "_loc": "/Users/kaviartaco/.hyper_plugins/cache/v1/npm-hypergoogle-0.0.2-a8f15b39ac317aa0d9944d27c762bbeaee6e848b/package.json",
+    "readmeFilename": "readme.md",
+    "readme": "# hypergoogle\n\nHyper extension that lets you open a Google search from the terminal.\n\n<a href=\"https://giphy.com/gifs/3oKIP8uQwpm3XHalAQ/fullscreen\" target=\"_blank\">\n  <img src=\"https://media.giphy.com/media/3ohryrYgpnTG5U5JaE/giphy.gif\" />\n</a>\n\n## Usage\n\n[Install Hyper](https://hyper.is/#installation) and add `hypergoogle` to `plugins` in `~/.hyper.js`.\n\nHighlight some text and you should get the search input populated with you're selection.\n\n## License\n\nMIT\n",
+    "license": "MIT*"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hypergoogle/-/hypergoogle-0.0.2.tgz#a8f15b39ac317aa0d9944d27c762bbeaee6e848b",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hypergoogle/-/hypergoogle-0.0.2.tgz",
+    "hash": "a8f15b39ac317aa0d9944d27c762bbeaee6e848b",
+    "registry": "npm",
+    "packageName": "hypergoogle"
+  },
+  "registry": "npm",
+  "hash": "a8f15b39ac317aa0d9944d27c762bbeaee6e848b"
+}

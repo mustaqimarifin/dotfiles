@@ -1,0 +1,79 @@
+{
+  "manifest": {
+    "name": "hyperterm-safepaste",
+    "version": "2.0.1",
+    "description": "Makes pasting into hyperterm safe",
+    "main": "dist/bundle.js",
+    "scripts": {
+      "build": "webpack",
+      "build:watch": "webpack -w",
+      "build:prod": "env NODE_ENV=production webpack -p",
+      "lint": "eslint . --cache",
+      "prepublish": "yarn run test",
+      "test": "yarn run typecheck && yarn run lint && yarn run jest",
+      "jest": "jest",
+      "jest:watch": "jest --watch",
+      "typecheck": "flow check"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zsol/hyperterm-safepaste"
+    },
+    "keywords": [
+      "hyperterm",
+      "paste",
+      "safepaste"
+    ],
+    "author": {
+      "name": "Zsolt Dollenstein"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zsol/hyperterm-safepaste/issues"
+    },
+    "homepage": "https://github.com/zsol/hyperterm-safepaste#readme",
+    "devDependencies": {
+      "babel": "^6.23.0",
+      "babel-core": "^6.23.1",
+      "babel-eslint": "^7.1.1",
+      "babel-jest": "^19.0.0",
+      "babel-loader": "^6.3.2",
+      "babel-plugin-react-transform": "^2.0.2",
+      "babel-plugin-transform-class-properties": "^6.23.0",
+      "babel-preset-es2015": "^6.22.0",
+      "babel-preset-react": "^6.23.0",
+      "eslint": "^3.16.1",
+      "eslint-plugin-flowtype": "^2.30.0",
+      "eslint-plugin-react": "^6.10.0",
+      "flow-bin": "^0.40.0",
+      "flow-typed": "^2.0.0",
+      "jest": "^19.0.2",
+      "jest-cli": "^19.0.2",
+      "webpack": "^2.2.1"
+    },
+    "jest": {
+      "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$"
+    },
+    "dependencies": {
+      "invariant": "^2.2.4",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2"
+    },
+    "_registry": "npm",
+    "_loc": "/Users/kaviartaco/.hyper_plugins/cache/v1/npm-hyperterm-safepaste-2.0.1-f33f5d26ed66e02a147d52dd44803f4fc773dc2a/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# hyperterm-safepaste\nMakes pasting into hyperterm safe\n\n## Demo\n\n![Demo gif](https://raw.githubusercontent.com/zsol/hyperterm-safepaste/master/demo.gif)\n\n## Features\n\n- When pasting a single line, trims extra newlines from the end. This makes sure your command will not be executed automatically until you press enter.\n- When pasting multiple lines, a popup will give you a chance to review and edit the text before sending it into the terminal. Escape cancels the paste.\n",
+    "licenseText": "The MIT License (MIT)\n\nCopyright (c) 2017 Zsolt Dollenstein\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyperterm-safepaste/-/hyperterm-safepaste-2.0.1.tgz#f33f5d26ed66e02a147d52dd44803f4fc773dc2a",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyperterm-safepaste/-/hyperterm-safepaste-2.0.1.tgz",
+    "hash": "f33f5d26ed66e02a147d52dd44803f4fc773dc2a",
+    "registry": "npm",
+    "packageName": "hyperterm-safepaste"
+  },
+  "registry": "npm",
+  "hash": "f33f5d26ed66e02a147d52dd44803f4fc773dc2a"
+}

@@ -1,0 +1,40 @@
+{
+  "manifest": {
+    "name": "hyper-alt-click",
+    "version": "0.1.1",
+    "description": "A hyper plugin that allows you to move the cursor using the mouse via the alt+click combination.",
+    "keywords": [
+      "hyper",
+      "hyper.app"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/adamscybot/hyper-alt-click.git"
+    },
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+      "name": "Adam Thomas",
+      "url": "@adamscybot"
+    },
+    "license": "MIT",
+    "_registry": "npm",
+    "_loc": "/Users/kaviartaco/.hyper_plugins/cache/v1/npm-hyper-alt-click-0.1.1-b37bd6555f6a087bdea4fd17373649cca04f50da/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# hyper-alt-click\nAn experimental (hacky) plugin to allow moving the cursor by alt+clicking in [hyper](https://hyper.is/). Very early in development.\n\n![Screenshot](https://cloud.githubusercontent.com/assets/1210785/23743760/cdb010da-04a9-11e7-889f-2af23f3995bc.gif)\n\n**DISCLAIMER**: This plugin is essentially one giant hack due to the limited API provided by Hyper. Use it with caution! Actual support should be added to hyper core. Unless someone finds a better way than this!\n\n# Installation\n\nadd `hyper-alt-click` to `~/.hyper.js`'s plugin list.\n\n```javascript\n{\n\t//...\n\tplugins: [\"hyper-alt-click\"],\n}\n```\n\n# FAQ\n\n## Does it work on windows?\nNo idea, but I don't see why not.\n\n## Does it work in VIM/Nano/Etc...\nNot yet, as it cant seem to handle the new lines. This is possible though in a future version and with more research.\n\n## Why experimental/hacky?\n[explanation incoming]\n",
+    "licenseText": "MIT License\n\nCopyright (c) 2017 Adam Thomas\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-alt-click/-/hyper-alt-click-0.1.1.tgz#b37bd6555f6a087bdea4fd17373649cca04f50da",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-alt-click/-/hyper-alt-click-0.1.1.tgz",
+    "hash": "b37bd6555f6a087bdea4fd17373649cca04f50da",
+    "registry": "npm",
+    "packageName": "hyper-alt-click"
+  },
+  "registry": "npm",
+  "hash": "b37bd6555f6a087bdea4fd17373649cca04f50da"
+}
