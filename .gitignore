@@ -9,4 +9,5 @@ local
 zsh/.zcompdump
 zsh/.zhistory
 zsh.zsh_history
-zsh/.zsh_sessions
+zsh/.zsh_sessions/**
+zsh/.zcompcache/**
