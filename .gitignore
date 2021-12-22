@@ -8,6 +8,6 @@ local
 !.dir_colors
 zsh/.zcompdump
 zsh/.zhistory
-zsh.zsh_history
+zsh/.zsh_history
 zsh/.zsh_sessions/**
 zsh/.zcompcache/**
