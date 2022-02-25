@@ -1,0 +1,890 @@
+: 1640446394:0;/Users/vmp/.zshenv ; exit;
+: 1640446516:0;help
+: 1640447739:0;/Volumes/Alfred\ 4.6.1/Open\ Gatekeeper\ friendly ; exit;
+: 1640448127:0;git clone https://github.com/mustaqimarifin/mstqmarfn.git mstqmarfn2
+: 1640448931:0;git commit -a -m "fix comments and sign in"
+: 1640449452:0;eval "$(ssh-agent -s)"
+: 1640449487:0;touch ~/.ssh/config
+: 1640449508:0;open ~/.ssh/config
+: 1640449689:0;ssh-add -K ~/.ssh/id_ed25519
+: 1640449869:0;brew install gh
+: 1640449910:0;gh ssh-key add ~/.ssh/id_ed25519.pub --title "HACKXYZ"\
+
+: 1640449917:0;gh auth login
+: 1640454562:0;gcloud init
+: 1640454628:0;gcloud auth
+: 1640454658:0;gcloud auth login
+: 1640455259:0;gcloud auth activate-service-account
+: 1640455461:0;gcloud auth activate-service-account --key-file="/Users/vmp/Downloads/mstqmarfn-x-5c9201d035a3.json"
+: 1640455591:0;yarn add googleapis@48.0.0
+: 1640457143:0;yarn remove googleapis
+: 1640457158:0;yarn add googleapis@latest
+: 1640457813:0;yarn remove tailwindcss
+: 1640457831:0;yarn add -D tailwindcss@latest
+: 1640457970:0;git commit -a -m "fix youtube stats and tailwind"
+: 1640458681:0;/Volumes/ScreenFlow\ 10.0.3/Open\ Gatekeeper\ friendly ; exit;
+: 1640463638:0;git commit -a -m "fix you"
+: 1640467198:0;git commit -a -m "google"
+: 1640478076:0;ares-install --device LGtv ./org.jellyfin.webos_X.X.X_all.ipk
+: 1640478150:0;ares-install --device LGtv --list
+: 1640478578:0;ares-novacom --device LGtv --getkey
+: 1640479080:0;npm i -D @webosose/ares-cli@latest
+: 1640479113:0;npx ares -l
+: 1640479153:0;ares-novacom
+: 1640479698:0;ares-launch
+: 1640479734:0;ares-device
+: 1640479745:0;ares-device -s -d LGtv
+: 1640479930:0;ares-novacom --device 'LGtv' --getkey
+: 1640479945:0;ares-l
+: 1640479954:0;ares-server
+: 1640480072:0;ares-server -p 9090  ~/lg/serv
+: 1640480095:0;ares-server -p 9090  ~/lg
+: 1640480251:0;ares-install --device LGtv ./org.jellyfin.webos_1.0.0_all.ipk
+: 1640498181:0;chmod +X ./bin/
+: 1640498200:0;./webOS\ TV\ CLI.app/
+: 1640498245:0;bd webOS_TV_SDK
+: 1640498269:0;bd opt
+: 1640498281:0;chmod +X ./webOS_TV_SDK/
+: 1640499652:0;ares-device 
+: 1640499690:0;ares-device -d tv
+: 1640499705:0;ares-device -i -d tv
+: 1640499764:0;ares-device-info -d tv
+: 1640499929:0;ares-novacom --device tv --getkey
+: 1640499938:0;novacom
+: 1640500060:0;ssh-keygen -f ~/.ssh/webos -C root@webos-emulator
+: 1640500122:0;echo path
+: 1640500128:0;echo PATH
+: 1640500142:0;echo $path
+: 1640500168:0;echo $PATH
+: 1640500290:0;ssh -p 9922 root@localhost mkdir .ssh
+: 1640500359:0;ssh
+: 1640500435:0;ssh prisoner@192.168.0.111:9922
+: 1640500522:0;ssh localhost
+: 1640500605:0;ssh prisoner@192.168.0.111:6622
+: 1640500690:0;ssh -p 6622 prisoner@192.168.0.111:6622 mkdir .ssh
+: 1640500729:0;ares-setup-device 
+: 1640500960:0;ares-shell
+: 1640501100:0;ares-novacom --device tv1 --getkey
+: 1640501121:0;ares-device --getkey
+: 1640501143:0;ares-device -i -d tv1
+: 1640509250:0;yarn create next-app --example with-framer-motion with-framer-motion-app\
+
+: 1640509281:0;npx create next-app --example with-framer-motion with-framer-motion-app\
+
+: 1640509306:0;npm -v
+: 1640523172:0;git clone https://github.com/mustaqimarifin/tailwind-nextjs-starter-blog.git nextTIM
+: 1640523179:0;nextTIM
+: 1640525175:0;defaults write com.apple.finder DisableAllAnimations -bool true\
+killall Finder
+: 1640535794:0;git branch master origin/typescript
+: 1640535810:0;git switch -v
+: 1640535834:0;git branch --help
+: 1640535898:0;git branch -v
+: 1640535911:0;git branch --list
+: 1640546697:0;git fetch
+: 1640550418:0;brew services stop skhd yabai
+: 1640550443:0;brew uninstall yabai skhd
+: 1640550584:0;brew install --cask amethyst\
+
+: 1640630118:0;git clone --recursive https://github.com/google/woff2.git\
+cd woff2\
+make clean all
+: 1640630241:0;./woff2_compress /Users/vmp/Library/Containers/com.criminalbird.typeface.standalone/Data/Library/Application\ Support/downloads/Google/dm-mono 
+: 1640630278:0;./woff2_compress /Users/vmp/Library/Containers/com.criminalbird.typeface.standalone/Data/Library/Application\ Support/downloads/Google/dm-mono/dm-mono-regular.ttf 
+: 1640637905:0;./woff2_compress /Users/vmp/Downloads/Inter/Inter.ttf
+: 1640637927:0;./woff2_compress /Users/vmp/Downloads/Bitter/Bitter.ttf
+: 1640637944:0;./woff2_compress /Users/vmp/Downloads/Public_Sans/PublicSans.ttf
+: 1640657099:0;brew uninstall amethyst
+: 1640657223:0;brew install koekeishiya/formulae/yabai
+: 1640657256:0;brew services start koekeishiya/formulae/yabai
+: 1640700093:0;git clone https://github.com/mustaqimarifin/cusdis.git
+: 1640700097:0;cusdis
+: 1640700640:0;/Applications/Postgres.app/Contents/Versions/14/bin/psql -p5432 "postgres"
+: 1640701368:0;openssl rand -base64 32
+: 1640707746:0;yarn run build:without-migrate
+: 1640709846:0;widget
+: 1640710373:0;npm i @prisma/client
+: 1640710423:0;npm i -D prisma typegraphql-prisma 
+: 1640710481:0;npm i -D prisma@latest typegraphql-prisma@latest --force
+: 1640710529:0;npm i -D typescript@latest
+: 1640711473:0;yarn add react-cusdis
+: 1640732071:0;npm run widget -p 3001
+: 1640736443:0;yarn dev -p 3001
+: 1640759468:0;./woff2_compress /Users/vmp/mstqmarfn2/public/fonts/Archivo.ttf 
+: 1640759519:0;./woff2_compress /Users/vmp/mstqmarfn2/public/fonts/Archivo.ttf
+: 1640773599:0;npm run build:widget --emptyOutDir
+: 1640774806:0;npm i next@latest next-auth@latest
+: 1640775803:0;npm install next-auth @prisma/client @next-auth/prisma-adapter\
+
+: 1640841853:0;yarn -help
+: 1640842058:0;git clone https://github.com/mustaqimarifin/cusdis.git cusdis_1
+: 1640842066:0;cusdis_1
+: 1640844118:0;yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^5
+: 1640844196:0;yarn add @chakra-ui/react @emotion/react@latest @emotion/styled@latest framer-motion@latest
+: 1640844468:0;https://github.com/djyde/cusdis.git cusdis3
+: 1640844478:0;git clone https://github.com/djyde/cusdis.git cus3
+: 1640844530:0;yarn run build
+: 1640846302:0;npm run dev -p 6666
+: 1640846348:0;npm run -p 6666 dev
+: 1640846385:0;npm run dev -- -p 6666
+: 1640849991:0;npm update  @prisma/client
+: 1640850052:0;npm i -D prisma@latest 
+: 1640850237:0;npx prisma generate
+: 1640856056:0;npm i tailwindcss@latest postcss@latest autoprefixer@latest
+: 1640856246:0;npm i svelte@latest svelte-preprocess@latest
+: 1640856277:0;npm i vite@latest
+: 1640864405:0;npm run widget
+: 1640870849:0;npm i iframe-resizer
+: 1640876445:0;npm install --save iframe-resizer-react
+: 1640876563:0;npm run build:widget
+: 1640876871:0;npm run dev -- -p 3636
+: 1640890410:0;brew services stop yabai
+: 1640891832:0;git clone https://github.com/NotionX/react-notion-x.git 
+: 1640891840:0;react-notion-x
+: 1640891989:0;yarn add --dev @types/react
+: 1640892041:0;yarn install --force
+: 1640892129:0;yarn add -D @types/node@latest typescript@latest
+: 1640892148:0;yarn add -D @next/bundle-analyzer@latest
+: 1640936764:0;git clone https://github.com/mustaqimarifin/nobelium.git 
+: 1640937040:0;npm run dev:pg
+: 1640937222:0;npm i node-fetch --force
+: 1640937260:0;npm run dev -p 3636
+: 1640941696:0;samuelkraft
+: 1640942654:0;npm i next@latest react-notion@latest sass@latest
+: 1640942765:0;npm i -D @types/node@latest @types/react@latest
+: 1640942954:0;npm i next-contentlayer@latest 
+: 1640942969:0;npm i contentlayer@latest 
+: 1640942992:0;npm uninstall yarn
+: 1640955326:0;npm i next@latest react-notion-x@latest notion-client@latest notion-types@latest notion-utils@latest 
+: 1640955337:0;npm i next@latest react-notion-x@latest notion-client@latest notion-types@latest notion-utils@latest --force
+: 1640955723:0;npm i react-static-tweets@latest static-tweets@latest
+: 1640955734:0;npm i react-static-tweets@latest static-tweets@latest --force
+: 1640956407:0;npm i p-map@latest
+: 1640956428:0;npm i got@latest
+: 1640956454:0;npm i p-memoize@latest
+: 1640960555:0;npm update unist-util-visit
+: 1640960793:0;yarn outdated
+: 1640960819:0;yarn upgrade --help
+: 1640960924:0;yarn upgrade
+: 1640963231:0;node --trace-deprecation
+: 1640963318:0;yarn audit --help
+: 1640963385:0;yarn audit --fix
+: 1641063071:0;yarn add nanoid
+: 1641064498:0;yarn add next-transpile-modules\
+
+: 1641066281:0;yarn add react@alpha react-dom@alpha
+: 1641066787:0;yarn add -D @babel/helper-compilation-targets
+: 1641067185:0;yarn add node-fetch@latest
+: 1641067490:0;yarn uninstall next react react-dom
+: 1641067503:0;yarn remove next react react-dom
+: 1641067581:0;yarn add next react react-dom react-use@latest
+: 1641067826:0;yarn remove node-fetch
+: 1641071111:0;yarn remove static-tweets
+: 1641082034:0;npm uninstall static-tweets
+: 1641082520:0;npm install static-tweets@0.5.2
+: 1641082540:0;npm install static-tweets@0.5.3
+: 1641106021:0;mstqmarfn2
+: 1641127130:0;npm tsc
+: 1641127134:0;npm run tsc
+: 1641127152:0;npx run tsc
+: 1641128980:0;npm i plaiceholder@latest @plaiceholder/next
+: 1641214917:0;sudo "${LG_WEBOS_TV_SDK_HOME}"/Uninstall/./uninstaller_mac64
+: 1641229385:0;npm install static-tweets react-static-tweets --legacy-peer-deps
+: 1641229467:0;npm install static-tweets@0.5.3 react-static-tweets@0.5.3
+: 1641229493:0;npm install static-tweets@0.5.3 react-static-tweets@0.5.3 --legacy-peer-deps
+: 1641229604:0;npm i @supabase-supabase-js@latest
+: 1641294825:0;https://github.com/mustaqimarifin/braydoncoyer.dev.git
+: 1641294832:0;git clone https://github.com/mustaqimarifin/braydoncoyer.dev.git
+: 1641294844:0;braydoncoyer.dev
+: 1641300185:0;npm run defv
+: 1641301787:0;npm run dev 
+: 1641306415:0;npm i @notionhq/client@latest next@latest framer-motion@latest
+: 1641320097:0;curl 'https://api.notion.com/v1/blocks/9bc30ad4-9373-46a5-84ab-0a7845ee52e6' \\
+  -H 'Authorization: Bearer '"$NOTION_API_KEY"'' \\
+  -H 'Notion-Version: 2021-08-16'
+: 1641331622:0;git clone https://github.com/mustaqimarifin/braydoncoyer.dev.git coyer
+: 1641331648:0;coyer
+: 1641348853:0;brew services start yabai
+: 1641416688:0;pnpm -help
+: 1641416890:0;curl -f https://get.pnpm.io/v6.16.js | node - add --global pnpm
+: 1641416909:0;which pnpm
+: 1641417062:0;pnpm i 
+: 1641417070:0;nobelium
+: 1641417239:0;pnpm i
+: 1641419015:0;pnpm run build
+: 1641419772:0;pnpm i -D prettier
+: 1641419801:0;pnpm i -D eslint@latest
+: 1641419820:0;pnpm run dev
+: 1641421638:0;git clone https://github.com/mustaqimarifin/nobelium.git nob2
+: 1641427047:0;npm i got pmap @google-cloud/firestore lqip-modern
+: 1641491438:0;brew services start skhd
+: 1641538658:0;NPM RUN DEV
+: 1641554325:0;npm install sqip@canary sqip-plugin-data-uri@canary sqip-plugin-potrace@canary
+: 1641556573:0;npm i @google-cloud/firestore@latest
+: 1641556604:0;npm audit
+: 1641556738:0;npm uninstall sqip sqip-plugin-data-uri sqip-plugin-potrace
+: 1641558699:0;npm i react-static-tweets static-tweets
+: 1641558720:0;npm i react-static-tweets static-tweets --legacy-peer-deps
+: 1641559534:0;npm i static-tweets@latest
+: 1641559569:0;npm i static-tweets@0.5.4
+: 1641559614:0;npm i static-tweets@0.5.3
+: 1641563295:0;git clone https://github.com/transitive-bullshit/nextjs-notion-starter-kit.git noshen
+: 1641563299:0;noshen
+: 1641563893:0;nextnotion
+: 1641575081:0;/Volumes/AnyTrans\ for\ Android\ 7.3.0.20200722/Open\ Gatekeeper\ friendly ; exit;
+: 1641889377:0;npm uninstall node-fetch
+: 1641903580:0;git clone https://github.com/joe-bell/plaiceholder.git
+: 1641903595:0;plaiceholder
+: 1641903601:0;examples
+: 1641903606:0;next
+: 1641903892:0;npm i -D tailwindcss@latest postcss@latest autoprefixer@latest
+: 1641922174:0;nob2
+: 1641978378:0;source ~/.yabairc
+: 1641984169:0;npm i @emotion/styled 
+: 1641984463:0;npm i @emotion/react
+: 1641984470:0;npm i -D @emotion/babel-plugin
+: 1641987293:0;npm i unist-util-find-after 
+: 1641989427:0;npm i --save-dev @types/unist-util-find-after
+: 1641992901:0;npm i mdx-bundler@latest
+: 1641996379:0;npm i next-contentlayer@latest contentlayer@latest
+: 1641997654:0;npm i @emotion/server @emotion/cache
+: 1641999464:0;npm uninstall unist-util-find-after unist-util-visit-parents unist-util-visit
+: 1642000202:0;npm i @emotion/react@latest
+: 1642003933:0;npm install remark-toc\
+
+: 1642006145:0;npm i unist-util-find-after
+: 1642006517:0;npm i @stitches/react
+: 1642017246:0;npm i unist-util-visit unist-util-visit-parents
+: 1642017931:0;npm install @jsdevtools/rehype-toc rehype-parse rehype-stringify\
+ 
+: 1642020489:0;npm i -D remark-gfm@latest
+: 1642027457:0;npm i unist-util-visit github-slugger
+: 1642027875:0;npm i file-loader
+: 1642033914:0;git clone https://github.com/mustaqimarifin/tailwind-nextjs-starter-blog.git rockhard
+: 1642033918:0;rockhard
+: 1642034304:0;tsc
+: 1642037501:0;git commit -a -m "pics"
+: 1642037526:0;git push -u origin "master"
+: 1642043800:0;npm i -D tailwindcss@latest postcss@latest autoprefixer@latest @tailwindcss/line-clamp@latest
+: 1642043845:0;npm i -D @tailwindcss/typography@latest @tailwindcss/forms@latest
+: 1642043909:0;npm i react-icons@latest @headlessui/react@latest @reach/portal@latest
+: 1642045348:0;npm i classnames
+: 1642047907:0;npm i -D typescript@latest prettier@latest
+: 1642048217:0;git push -u origin "typescript"
+: 1642048614:0;npm install --save-dev @types/node
+: 1642075839:0;npm i nanoid
+: 1642106351:0;npm upgrade
+: 1642106383:0;npm upgrade --force
+: 1642106518:0;npm uninstall @stitches/react file-loader
+: 1642108035:0;npm uninstall @emotion/babel-plugin
+: 1642108054:0;npm uninstall @types/github-slugger
+: 1642142498:0;npm i dayjs
+: 1642155322:0;npm i react-static-tweets@latest
+: 1642155341:0;npm i react-static-tweets@latest --force
+: 1642155448:0;npm i react-static-tweets@0.5.3 static-tweets@0.5.4
+: 1642155477:0;npm i react-static-tweets@0.5.3 static-tweets@0.5.4 --force
+: 1642155502:0;npm i react-static-tweets@0.5.3 static-tweets@0.5.3 
+: 1642155532:0;npm i static-tweets@0.5.3 -- force
+: 1642155562:0;npm i react-static-tweets@0.5.3 --force
+: 1642185508:0;npm uninstall force
+: 1642264324:0;npm i use-dark-mode
+: 1642264362:0;npm i use-dark-mode --force
+: 1642348356:0;/Users/vmp/Downloads/react-notion-master/example 
+: 1642348535:0;npx browserslist@latest --update-db
+: 1642348580:0;yarn --force
+: 1642348646:0;yarn add next@latest react@latest react-dom@latest react-notion@latest
+: 1642348688:0;yarn add -D @types/node@latest typescript@latest @types/react@latest
+: 1642348898:0;git clone https://github.com/splitbee/react-notion-blog.git
+: 1642348907:0;react-notion-blog
+: 1642350140:0;npm i -D tailwindcss@latest postcss@latest autoprefixer@latest @tailwindcss/typography@latest 
+: 1642350177:0;npm i -D tailwindcss@latest postcss@latest autoprefixer@latest @tailwindcss/typography@latest --force
+: 1642351571:0;npm i -D eslint@latest
+: 1642351853:0;npm i swr@latest
+: 1642353391:0;npm i next-themes@latest classnames
+: 1642353410:0;npm i next-themes@latest classnames --force
+: 1642353954:0;npm i use-delayed-render --force
+: 1642355039:0;npm i react@latest react-dom@latest
+: 1642355054:0;npm i react-notion@latest
+: 1642360164:0;npm i react-notion-x@latest notion-client@latest notion-utils@latest
+: 1642362415:0;git clone https://github.com/mustaqimarifin/nikolovlazar.com.git lazar
+: 1642362421:0;lazar
+: 1642369745:0;curl "https://api.raindrop.io/v1/oauth/authorize?client_id=61e489fc670bc0df344862b0&redirect_uri=https:%2F%2Foauthdebugger.com%2Fdebug"
+: 1642370063:0;curl -X "POST" "https://raindrop.io/oauth/access_token" \\
+     -H 'Content-Type: application/json' \\
+     -d $'{\
+  "code": "01cdb336-eb06-440d-9cd1-670eb1c719f0",\
+  "client_id": "61e489fc670bc0df344862b0",\
+  "redirect_uri": "https://oauthdebugger.com/debug",\
+  "client_secret": "2c884716-243e-4ec8-9e5f-b8b81f89f337",\
+  "grant_type": "authorization_code"\
+}'
+: 1642370553:0;curl -X "POST" "https://raindrop.io/oauth/access_token" \\
+     -H 'Content-Type: application/json' \\
+     -d $'{\
+  "code": "01cdb336-eb06-440d-9cd1-670eb1c719f0",\
+  "client_id": "61e489fc670bc0df344862b0",\
+  "redirect_uri": "http://localhost:3000",\
+  "client_secret": "2c884716-243e-4ec8-9e5f-b8b81f89f337",\
+  "grant_type": "authorization_code"\
+}'
+: 1642370614:0;curl "https://api.raindrop.io/v1/oauth/authorize?client_id=61e489fc670bc0df344862b0&redirect_uri=http%3A%2F%2Flocalhost%3A3000"\
+
+: 1642386120:0;curl https://api.airtable.com/v0/apphsoetJgrMOQTew/Books?api_key=keyp6hkGPjdDQG2JY
+: 1642386176:0;curl https://api.airtable.com/v0/apphsoetJgrMOQTew/Books \\
+-H "Authorization: Bearer keyp6hkGPjdDQG2JY"
+: 1642392977:0;curl https://api.airtable.com/v0/appiLr50MvoLK3pZl/Books \\
+-H "Authorization: Bearer keyp6hkGPjdDQG2JY"
+: 1642415681:0;npm i -D tailwindcss@latest postcss@latest autoprefixer@latest @tailwindcss/typography@latest  @tailwindcss/forms@latest --force
+: 1642415711:0;npm i -D @types/tailwindcss
+: 1642416443:0;npm i @supabase/supabase-js@latest @headlessui/react@latest @reach/portal@latest classnames dayjs
+: 1642420828:0;npm i performant-array-to-tree@latest
+: 1642426162:0;git clone https://github.com/mustaqimarifin/easycomments.git 
+: 1642427003:0;openssl rand -hex 32
+: 1642428327:0;npm i firebase-admin@latest
+: 1642429274:0;gcloud auth activate-service-account --key-file="/Users/vmp/Downloads/vmpxyz-firebase-adminsdk-77lej-815cd5ca81.json"
+: 1642429302:0;gcloud components update
+: 1642429735:0;easycomments
+: 1642436565:0;npm i iframe-resizer iframe-resizer-react
+: 1642450477:0;git clone https://github.com/mustaqimarifin/nobelium.git nob3
+: 1642450481:0;nob3
+: 1642453623:0;npm audit fix
+: 1642453682:0;npm uninstall gitalk
+: 1642454384:0;npm i -D prettier@latest
+: 1642454664:0;git clone https://github.com/craigary/nobelium.git nob4
+: 1642454726:0;npm i -g yarn
+: 1642454731:0;yarn -v
+: 1642454737:0;nob4
+: 1642455948:0;yarn add -D typescript@latest
+: 1642457955:0;yarn add -D @typescript-eslint/eslint-plugin  @typescript-eslint/parser eslint-config-prettier
+: 1642458827:0;yarn remove @types/tailwindcss
+: 1642480389:0;yarn add notion-types@latest
+: 1642514455:0;npm i notion-types
+: 1642525214:0;npm i axios feed  
+: 1642531488:0;git clone https://github.com/craigary/nobelium.git nob5
+: 1642531497:0;nob5
+: 1642533340:0;yarn add -D prettier@latest
+: 1642533614:0;yarn add swr @supabase/supabase-js
+: 1642534857:0;yarn add -D reading-time
+: 1642535961:0;yarn add react-hook-reading-time\
+
+: 1642538962:0;yarn add -D tailwindcss@latest autoprefixer@latest postcss@latest
+: 1642549073:0;yarn add -D html-loader
+: 1642558449:0;yarn add -D @tailwindcss/typography\
+
+: 1642571390:0;yarn add next-themes classnames
+: 1642577770:0;yarn add motion
+: 1642578161:0;yarn add dayjs @reach/portal @headlessui/react 
+: 1642578542:0;yarn add performant-array-to-tree
+: 1642920062:0;yarn 
+: 1642924185:0;yarn add p-memoize
+: 1642924591:0;yarn add react-use
+: 1642943175:0;yarn remove p-memoize
+: 1642943195:0;yarn add p-memoize@4.0.0
+: 1642943212:0;yarn remove react-hook-reading-time
+: 1642947041:0;yarn add node-fetch@2.6.1
+: 1642952233:0;yarn add swr
+: 1642952389:0;yarn add notion-client@4.10.0 notion-utils@4.10.0
+: 1642952770:0;yarn add @google-cloud/firestore@4.10.1
+: 1642955787:0;yarn add @google-cloud/firestore@latest
+: 1642957507:0;yarn add react-body-classnaME
+: 1642959162:0;yarn add react-body-classname
+: 1642971320:0;git clone https://github.com/NotionX/react-notion-x.git reactnotion2
+: 1642971325:0;reactnotion2
+: 1642971576:0;npm i -D  @types/react
+: 1642972353:0;npm run staart
+: 1642976715:0;npm i node-fetch
+: 1642978134:0;git commit -a -m "supacomments"
+: 1642978357:0;git clone https://github.com/mustaqimarifin/nobelium.git nob6
+: 1642979252:0;npm i @google-cloud/firestore@4.10.1
+: 1642979444:0;npm i react-static-tweets@0.5.3 static-tweets@0.5.3 --force
+: 1642982078:0;npm i -D next-sitemap@latest
+: 1642988977:0;npm uninstall static-tweets react-static-tweets
+: 1642989342:0;npm install react-static-tweets static-tweets date-fns\
+
+: 1642989363:0;npm install react-static-tweets static-tweets date-fns --force\
+
+: 1642989524:0;npm i unist-util-visit
+: 1642992566:0;npm i -D @tailwindcss/line-clamp@latest @tailwindcss/forms@latest
+: 1642994663:0;git commit -a -m "noshen in the ocean"
+: 1642994922:0;git commit -a -m "noshen in the ocean2"
+: 1642995071:0;npm i -g vercel
+: 1642995823:0;git commit -a -m "noshen in the ocean3"
+: 1643005802:0;git commit -a -m "taming the script"
+: 1643009096:0;npm i node-fetch@latest
+: 1643009123:0;npm uninstall  react-static-tweets
+: 1643009140:0;npm i react-static-tweets@0.5.3 
+: 1643009154:0;npm i react-static-tweets@0.5.3 --legacy-peer-deps
+: 1643011744:0;npm i notion-client@latest notion-utils@latest
+: 1643012817:0;npm run dev\
+: 1643012819:0;npm run dev
+: 1643015520:0;npm i @supabase/supabase-js@latest
+: 1643015824:0;npx openapi-typescript https://xuxjsxksneizfvotovli.supabase.co/rest/v1/?apikey="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzODQ1OTc4MCwiZXhwIjoxOTU0MDM1NzgwfQ.Zngn8E2U7DnZsg3Dlx-BIRpNmJ3_RIjDpveUhI8I8Vo" --output types/supabase.ts
+: 1643015861:0;npx openapi-typescript "https://xuxjsxksneizfvotovli.supabase.co/rest/v1/?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzODQ1OTc4MCwiZXhwIjoxOTU0MDM1NzgwfQ.Zngn8E2U7DnZsg3Dlx-BIRpNmJ3_RIjDpveUhI8I8Vo" --output types/supabase.ts
+: 1643063130:0;npm i react-static-tweets@0.5.4
+: 1643065815:0;git clone https://github.com/mustaqimarifin/react-static-tweets.git 
+: 1643067957:0;npm outdated
+: 1643068047:0;npm i rehype-parse@latest rehype-raw @latest rehype-sanitize@latest
+: 1643068068:0;npm i rehype-parse@latest rehype-raw@latest rehype-sanitize@latest
+: 1643068932:0;bd 
+: 1643068942:0;bd .
+: 1643068943:0;bd ..
+: 1643068946:0;cd ..
+: 1643070229:0;git commit -a -m "swr+next update"
+: 1643071731:0;git commit -a -m "update readme- testing lerna"
+: 1643072507:0;npm i mustaqimarifin/react-static-tweets 
+: 1643075998:0;npm i mustaqimarifin/react-static-tweets@0.5.6
+: 1643076214:0;npm login
+: 1643077797:0;git commit -a -m "package.json"
+: 1643078071:0;git commit -a -m "add release workflow"
+: 1643078592:0;npm login --scope=@mustaqimarifin --registry=https://npm.pkg.github.com
+: 1643079668:0;git commit -a -m "add release workflow2"
+: 1643080193:0;git commit -a -m "add release workflow4"
+: 1643080731:0;git commit -a -m "remove example"
+: 1643081486:0;npm adduser
+: 1643082127:0;git commit -a -m "lalala"
+: 1643082852:0;cd\\
+cd
+: 1643082858:0;cd\
+cd
+: 1643083041:0;react-static-tweets
+: 1643083275:0;git commit -a -m "lalala again"
+: 1643083297:0;git commit -a -m "lalala again3"
+: 1643084356:0;git commit -a -m "lalala again5"
+: 1643084666:0;npm publish
+: 1643084793:0;yarn publish
+: 1643085358:0;git commit -a -m "lalala again6"
+: 1643088875:0;npm whoami
+: 1643089613:0;git commit -a -m "tokes"
+: 1643089876:0;npm login --registry=https://npm.pkg.github.com --scope=@mustaqimarifin
+: 1643089906:0;npm i @mustaqimarifin/react-static-tweets
+: 1643090142:0;npm i @jarred/react-static-tweets
+: 1643090171:0;npm i @jarred/react-static-tweets --legacy-peer-deps
+: 1643090191:0;npm i static-tweets@0.5.3 --legacy-peer-deps
+: 1643094163:0;yarn add react-static-tweets
+: 1643094313:0;yarn add static-tweets
+: 1643094348:0;yarn --help
+: 1643094442:0;yarn audit
+: 1643094516:0;yarn autoclean
+: 1643094592:0;yarn upgrade-interactive
+: 1643094662:0;yarn add got@latest
+: 1643094716:0;yarn add p-map@latest
+: 1643094777:0;yarn remove react-static-tweets static-tweets
+: 1643094790:0;yarn remove @jarred/react-static-tweets
+: 1643094810:0;yarn add react-static-tweets@0.5.3 static-tweets@0.5.3
+: 1643096865:0;npx tailwindcss init
+: 1643097350:0;yarn add next-themes
+: 1643098811:0;yarn add use-delayed-render
+: 1643102141:0;yarn add classnames
+: 1643197318:0;npm i react-static-tweets@0.5.4 static-tweets@0.5.3
+: 1643211464:0;woff2
+: 1643211471:0;./woff2_compress /Users/vmp/Downloads/DM_Mono/DMMono-Italic.ttf
+: 1643237877:0;npm i framer-motion@latest
+: 1643247550:0;npm i react-notion-x@latest
+: 1643248329:0;npm i -D sharp
+: 1643253124:0;npm i preact@latest
+: 1643253554:0;git commit -a -m "tokes meknokes"
+: 1643270649:0;git clone https://github.com/nicolaserny/next-image-cloudinary-example.git cloud
+: 1643270652:0;cloud
+: 1643358618:0;git clone https://github.com/mustaqimarifin/mstqmarfn.git mstqmarfnXX
+: 1643358698:0;yarn add -D  @types/node
+: 1643369291:0;git commit -a -m "tokes meknokes2"
+: 1643369344:0;yarn add -D file-loader
+: 1643374942:0;yarn add unist-util-visit image-size
+: 1643377770:0;git commit -a -m "tokes meknokes3"
+: 1643377797:0;git commit -a -m "tokes meknokes4"
+: 1643383582:0;npm i nanoid@latest
+: 1643386742:0;git commit -a -m "tokes meknokes5"
+: 1643388534:0;git commit -a -m "tokes meknokes6"
+: 1643434231:0;git clone https://github.com/NotionX/react-notion-x.git rnx
+: 1643434237:0;rnx 
+: 1643434350:0;example
+: 1643434384:0;yarn add next@latest
+: 1643440221:0;yarn add image-size plaiceholder unist unist-util-visit
+: 1643440287:0;yarn add image-size plaiceholder unist-util-visit
+: 1643444485:0;yarn add sqip@canary sqip-plugin-primitive@canary sqip-plugin-svgo@canary sqip-plugin-data-uri@canary sqip-plugin-potrace@canary
+: 1643445251:0;node components/sqip.tsx
+: 1643446328:0;node scripts/sqip.mjs
+: 1643447186:0;git clone rockhard2
+: 1643447195:0;git clone https://github.com/timlrx/tailwind-nextjs-starter-blog.git rockhard2
+: 1643447216:0;rockhard2
+: 1643448110:0;yarn add lqip-modern 
+: 1643448354:0;node scripts/lqip.js
+: 1643523223:0;npx tsc src/utils/plugins/image-metadata.ts
+: 1643524277:0;yarn add plaiceholder @plaiceholder/next
+: 1643524561:0;yarn add unist-util-visit
+: 1643524598:0;yarn add unist
+: 1643529095:0;npm i dayjs@latest
+: 1643541453:0;git push -u origin "xyz_supabase"
+: 1643542212:0;git clone https://github.com/mustaqimarifin/mstqmarfn.git mstqmarfnXXX
+: 1643542235:0;mstqmarfnXXX
+: 1643542712:0;mstqmarfnXX
+: 1643543669:0;npm i --force
+: 1643544465:0;npm i react-use
+: 1643555459:0;git commit -a -m "hero img"
+: 1643566152:0;git commit -a -m "fix svg"
+: 1643569871:0;git commit -a -m "fix blur placeholders"
+: 1643572772:0;npm uninstall react-notion-x
+: 1643572812:0;npm i react-notion-x@4.11.0
+: 1643578879:0;npm uninstall react-static-tweets static-tweets
+: 1643578894:0;npm i react-static-tweets@0.5.4 static-tweets@0.5.3 --legacy-peer-deps
+: 1643579284:0;git commit -a -m "fix blur placeholders2"
+: 1643588752:0;git commit -a -m "TOC"
+: 1643592839:0;npx tsc 
+: 1643607184:0;npx tsc components/comments/CommentSection.tsx
+: 1643609034:0;git commit -a -m "TOC2"
+: 1643616687:0;/Users/vmp/Downloads/AppleALC-1/alc-verb ; exit;
+: 1643685213:0;npm i react-icons@latest
+: 1643685283:0;npm i react-use@latest
+: 1643687667:0;npm add @chakra-ui/descendant
+: 1643687852:0;npm add @chakra-ui/react@latest
+: 1643687893:0;npm add @chakra-ui/react@latest --legacy-peer-deps
+: 1643688140:0;npm add @emotion/react@^11 @emotion/styled@^11 
+: 1643688149:0;npm i @emotion/react@^11 @emotion/styled@^11 
+: 1643688196:0;npm i @emotion/react @emotion/styled --legacy-peer-deps
+: 1643712189:0;npm i airtable
+: 1643714500:0;npm run env
+: 1643715122:0;curl -X "POST" "https://raindrop.io/oauth/access_token" \\
+     -H 'Content-Type: application/json' \\
+     -d $'{\
+  "code": "a026ee27-7930-411e-9445-88cfac306693",\
+  "client_id": "61e489fc670bc0df344862b0",\
+  "redirect_uri": "http://localhost:3000",\
+  "client_secret": "2c884716-243e-4ec8-9e5f-b8b81f89f337",\
+  "grant_type": "authorization_code"\
+}'
+: 1643715142:0;curl "https://api.raindrop.io/v1/oauth/authorize?client_id=61e489fc670bc0df344862b0&redirect_uri=http%3A%2F%2Flocalhost%3A3000"
+: 1643715227:0;curl -X "POST" "https://raindrop.io/oauth/access_token" \\
+     -H 'Content-Type: application/json' \\
+     -d $'{\
+  "code": "3828b948-90ed-4cea-bd13-38e18b5a1015",\
+  "client_id": "61e489fc670bc0df344862b0",\
+  "redirect_uri": "http://localhost:3000",\
+  "client_secret": "2c884716-243e-4ec8-9e5f-b8b81f89f337",\
+  "grant_type": "authorization_code"\
+}'
+: 1643739238:0;git commit -a -m "chakra on deez nuts"
+: 1643796432:0;git commit -a -m "back on dat interplanetary biz"
+: 1643799172:0;git commit -a -m "add pages, details more tbc"
+: 1643816903:0;kextstat | grep -E "AppleHDA|AppleALC|Lilu"\
+
+: 1643817058:0;printf '%x\n' 7
+: 1643817090:0;printf '%x\n' 28
+: 1643817231:0;printf '%x\n' 11
+: 1643853127:0;openssl req -x509 -newkey rsa:4096 -keyout ./privkey.pem -out cert.pem -days 365 -nodes -subj '/CN=jellyfin.lan'
+: 1643853154:0;openssl pkcs12 -export -out jellyfin.pfx -inkey privkey.pem -in /usr/local/etc/letsencrypt/live/domain.org/cert.pem -passout pass:
+: 1643853205:0;openssl pkcs12 -export -out jellyfin.pfx -inkey ./privkey.pem -in /usr/local/etc/letsencrypt/live/domain.org/cert.pem -passout pass:
+: 1643856504:0;brew upgrade
+: 1643856678:0;rm '/usr/local/bin/2to3'
+: 1643856709:0;brew install caddy
+: 1643856727:0;brew doctor
+: 1643857819:0;caddy reverse-proxy --from dowe.servebeer.com --to 127.0.0.1:8026
+: 1643859804:0;./dev.sh ares-setup-device --search\
+
+: 1643860527:0;ares-device-info -d tv1
+: 1643860548:0;ares
+: 1643860564:0;ares -l
+: 1643860653:0;ares-install -d tv1 /Users/vmp/org.jellyfin.webos_1.0.1_all.ipk
+: 1643860695:0;ares-setup-device
+: 1643861032:0;ares-setup-device --list\
+
+: 1643861222:0;/Users/vmp/Downloads/webOS_SDK_TV_Installer_mac64_min\ 2/installer_mac64 ; exit;
+: 1643861272:0;sudo installer_mac64
+: 1643861291:0;sudo ./installer_mac64
+: 1643861509:0;export PATH=$WEBOS_CLI_TV:$PATH
+: 1643861568:0;source ~/.zshenv
+: 1643861685:0;sudo /opt/webOS_TV_SDK/ComponentManager/componentmanager_mac64 
+: 1643861975:0;npm start
+: 1643861981:0;npm run
+: 1643862018:0;npm preinstall
+: 1643862024:0;npm i
+: 1643862204:0;git clone http://mod.lge.com/hub/tvsdk/webostv-cli.git
+: 1643862291:0;ares-generate
+: 1643862320:0;ares-generate -l
+: 1643862346:0;ares-generate webapp
+: 1643862383:0;ares-novacom 
+: 1643862609:0;/opt/webOS_TV_SDK/CLI/bin/ares-novacom ; exit;
+: 1643862695:0;ares-novacom --device lgtv --getkey
+: 1643862706:0;./ares-novacom --device lgtv --getkey
+: 1643862718:0;./ares-setup-device
+: 1643862782:0;ares-setup-device --search
+: 1643862850:0;./ares-novacom --device LGtv --getkey
+: 1643862895:0;./ares-device-info -d LGtv
+: 1643862977:0;./ares-novacom --device dtv --getkey
+: 1643863019:0;./ares-install -d tv /Users/vmp/org.jellyfin.webos_1.0.1_all.ipk
+: 1643863060:0;./ares-package --no-minify services frontend
+: 1643863170:0;jellyfin-webos
+: 1643863185:0;npm i --legacy-peer-deps
+: 1643863203:0;npm run package
+: 1643863780:0;cd /opt/webOS_TV_SDK/CLI/bin 
+: 1643863802:0;./ares-setup-device --list
+: 1643863857:0;./ares-setup-device --modify emulator --info "host=192.168.0.113"
+: 1643863912:0;./ares-install --device emulator /Users/vmp/org.jellyfin.webos_1.0.1_all.ipk
+: 1643864012:0;./ares-novacom --device emulator --getkey
+: 1643864535:0;caddy reverse-proxy --from dowe.servebeer.com --to 127.0.0.1:32400
+: 1643865681:0;sudo "${LG_WEBOS_TV_SDK_HOME}"/ComponentManager/./componentmanager_mac64
+: 1643865736:0;/opt/webOS_TV_SDK/ComponentManager/componentmanager_mac64 ; exit;
+: 1643865775:0;sudo ./componentmanager_mac64
+: 1643865884:0;/opt/webOS_TV_SDK/IDE/WebOSIDE.app/Contents/MacOS/WebOSIDE ; exit;
+: 1643867402:0;/opt/webOS_TV_SDK/
+: 1643867409:0;CLI
+: 1643867417:0;bin
+: 1643867462:0;./ares-setup-device 
+: 1643867506:0;./ares-setup-device --search
+: 1643867618:0;./ares-novacom --device tv --getkey
+: 1643867655:0;./ares-device-info -d tv
+: 1643867680:0;./ares-install --device tv /Users/vmp/org.jellyfin.webos_1.0.1_all.ipk
+: 1643871738:0;./hyper.js
+: 1643871751:0;~/.hyper.js
+: 1643871925:0;ffmpeg
+: 1643872238:0;hyper i hyper-firefox-devtools\
+
+: 1643872365:0;git -v
+: 1643872411:0;brew install git
+: 1643872485:0;bd
+: 1643872491:0;bd y
+: 1643872501:0;bd m
+: 1643877203:0;caddy reverse-proxy --from dowe.servebeer.com --to 127.0.0.1:8920
+: 1643893558:0;touch patch.plist
+: 1643893643:0;python
+: 1643893652:0;python3
+: 1643893754:0;brew list python
+: 1643893774:0;brew search tk
+: 1643893841:0;python3 --version
+: 1643893858:0;brew search python
+: 1643893887:0;brew install python-tk@3.9
+: 1643893931:0;/Users/vmp/ProperTree/Scripts/buildapp-select.command ; exit;
+: 1643896221:0;ikr
+: 1643961006:0;/Volumes/A\ Better\ Finder\ Rename\ 11\ 11.41/Open\ Gatekeeper\ friendly ; exit;
+: 1643978382:0;git clone https://github.com/mustaqimarifin/theodorusclarence.com.git dorodoro
+: 1644043088:0;dorodoro
+: 1644046787:0;npx tsc
+: 1644055336:0;npm i lodash
+: 1644072635:0;brew services
+: 1644118452:0;nob6
+: 1644143438:0;npm add clsx
+: 1644149646:0;npm i cloudinary-build-url react-image-lightbox
+: 1644232904:0;npm i react-tippy
+: 1644234988:0;git commit -a -m "redesign box layout n grid + supabase comments"
+: 1644236777:0;npm i react-lite-youtube-embed
+: 1644247872:0;git commit -a -m "react youtube test"
+: 1644247972:0;git commit -a -m "initial props"
+: 1644321384:0;git commit -a -m "fixes: footer links + page icons"
+: 1644332224:0;git commit -a -m "fixes: blogcard + header layout"
+: 1644336616:0;git commit -a -m "prose issues"
+: 1644343565:0;git commit -a -m "fixed scrolling perf"
+: 1644390017:0;git commit -a -m "fixes: comment loading"
+: 1644390254:0;git commit -a -m "fixes: comment loading2"
+: 1644500117:0;./woff2
+: 1644500127:0;./woff2_compress /Users/vmp/dorodoro/public/fonts/bbs.otf 
+: 1644508877:0;yarn add @supabase/supabase-js @headlessui/react performant-array-to-tree dayjs @reach/portal 
+: 1644513076:0;yarn add nanoid@latest
+: 1644517312:0;./woff2_compress /Users/vmp/Documents/Font\ Collection/JetBrainsMono-2.242/fonts/variable/JetBrainsMono.ttf 
+: 1644584071:0;yarn add prisma@latest @prisma/client@latest
+: 1644590584:0;yarn add react-confetti react-use
+: 1644657961:0;yarn add -D @cld-apis/types
+: 1644687965:0;brew install webp
+: 1644688015:0;webp
+: 1644688018:0;cwebp
+: 1644688123:0;$ for F in *.png; do cwebp $F -o `basename ${F%.png}`.webp; done\
+
+: 1644688389:0;chmod +X ./webp.sh
+: 1644688584:0;PARAMS=('-m 6 -q 70 -mt -af -progress')\
+\
+if [ $# -ne 0 ]; then\
+	PARAMS=$@;\
+fi\
+\
+cd $(pwd)\
+\
+shopt -s nullglob nocaseglob extglob\
+\
+for FILE in *.@(jpg|jpeg|tif|tiff|png); do \
+    cwebp $PARAMS "$FILE" -o "${FILE%.*}".webp;\
+done
+: 1644688750:0;find -type f \( -iname '*.jpg' -o -iname '*.png' \) -print0 | xargs -0 -I{} -r -n1 -P10 cwebp -z 9 -m 6 -mt -pass 10 -alpha_filter best -short -progress "{}" -o "{}.webp"\
+
+: 1644688765:0;sudo find -type f \( -iname '*.jpg' -o -iname '*.png' \) -print0 | xargs -0 -I{} -r -n1 -P10 cwebp -z 9 -m 6 -mt -pass 10 -alpha_filter best -short -progress "{}" -o "{}.webp"\
+
+: 1644689056:0;/Users/vmp/Desktop/cloudinary/webp.sh 
+: 1644689427:0;which zsh
+: 1644689433:0;zsh --version
+: 1644689439:0;git --version
+: 1644689456:0;desktop
+: 1644689462:0;chmod +X ./cloudinary/
+: 1644689469:0;cloudinary
+: 1644689491:0;sudo ./webp.sh
+: 1644689557:0;shopt -s nullglob nocaseglob extglob\
+\
+for FILE in *.@(jpg|jpeg|tif|tiff|png); do \
+    cwebp $PARAMS "$FILE" -o "${FILE%.*}".webp;\
+
+: 1644689811:0;for file in *.png ; do cwebp -q 50 "$file" -o "${file%.png}.webp"; done
+: 1644689939:0;for file in * ; do cwebp -q 50 "$file" -o "${file%.*}.webp"; done
+: 1644690464:0;for file in * ; do cwebp -m 6 -q 70 -mt -af -progress "$file" -o "${file%.*}.webp"; done
+: 1644690838:0;./webp.sh
+: 1644690981:0;sudo chmod 755 ./webp-convertall.sh
+: 1644690987:0;./webp-convertall.sh
+: 1644707703:0;umami
+: 1644707708:0;npm i 
+: 1644709101:0;âƒ´‚    npm i --save-dev prisma@latest                       âƒ´‚
+: 1644709109:0;npm i --save-dev prisma@latest
+: 1644709121:0;npm i @prisma/client@latest
+: 1644709160:0;npm run build
+: 1644709277:0;git commit -a -m "fixes: prisma"
+: 1644709582:0;npm run start
+: 1644710633:0;npm i next@latest  
+: 1644710706:0;npm audit fix --force
+: 1644710728:0;npm audit fix 
+: 1644711033:0;npx prisma migrate dev 
+: 1644711142:0;npm run dev
+: 1644719761:0;sudo mkdir -p /etc/paths.d &&\
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+: 1644719792:0;postgresql
+: 1644719801:0;psql
+: 1644720508:0;yarn dev\
+: 1644720516:0;yarn build
+: 1644720904:0;yarn prisma db seed
+: 1644766623:0;git clone https://github.com/mustaqimarifin/theodorusclarence.com.git doro2
+: 1644767652:0;nvm
+: 1644767694:0;nvm ls
+: 1644767716:0;npm --version
+: 1644767728:0;node --version
+: 1644767742:0;yarn --version
+: 1644767758:0;yarn i -g yarn@latest
+: 1644767769:0;npm i -g yarn@latest
+: 1644771854:0;git commit -a -m "first push"
+: 1644776079:0;vercel
+: 1644776817:0;git remote
+: 1644776826:0;git remote --help
+: 1644777251:0;vercel --help
+: 1644777309:0;vercel --dev
+: 1644777314:0;vercel dev
+: 1644777582:0;git remote add origin https://github.com/mustaqimarifin/ehkswhyz.git
+: 1644777621:0;git commit -a -m "site manifest + links and hopefully fauna "
+: 1644779111:0;git config --global user.name "mustaqimarifin"\
+&& git config --global user.email "mustaqimarifin@gmail.com"
+: 1644779122:0;git config --global user.name "mustaqimarifin"
+: 1644779130:0;git config --global user.email "mustaqimarifin@gmail.com"
+: 1644779255:0;doro2
+: 1644779269:0;git commit -a -m "heyooo"
+: 1644779302:0;git commit -a -m "heyooo2"
+: 1644779527:0;git commit -a -m "fix(deployments): thorough spell-check and lint setup"
+: 1644779591:0;git commit -a -m "fix(lib): thorough spell-check and lint setup and fauna connection issues"
+: 1644817720:0;vercel --prod
+: 1644817925:0;git commit -a -m "fix(package): thorough spell-check and lint setup and fauna connection issues"
+: 1644823869:0;eslint --autofix
+: 1644823890:0;npx eslint --autofix
+: 1644823913:0;npx eslint --fix
+: 1644938622:0;git remote remove origin
+: 1644938650:0;git remote add origin https://github.com/mustaqimarifin/ekswhyzee.git
+: 1644938674:0;git branch -M main
+: 1644938867:0;doppler
+: 1644938892:0;doppler login
+: 1644938931:0;doppler setup
+: 1644938956:0;doppler open
+: 1644940472:0;git commit -a -m "fix(package): too many broken links & fauna issues"
+: 1644941895:0;git commit -a -m "fix(package): part2 - too many broken links & fauna issues"
+: 1644943046:0;yarn add -D @tailwindcss/typography@latest tailwindcss@latest autoprefixer@latest postcss@latest @tailwindcss/forms@latest @tailwindcss/line-clamp@latest\
+
+: 1644943858:0;yarn add faunadb@latest
+: 1644943935:0;git commit -a -m "fix(package): part3 - too many broken links & fauna issues"
+: 1644950671:0;git commit -a -m "fix(package): part4- supabase"
+: 1645015857:0;yarn add -D  @types/tailwindcss__typography
+: 1645015870:0;yarn add -D  @types/tailwindcss/typography
+: 1645015982:0;yarn add -D @types/tailwindcss
+: 1645017150:0;git commit -a -m "fix(package): part4- supabase comments"
+: 1645020381:0;yarn remove hotjar
+: 1645020444:0;yarn remove react-hotjar
+: 1645020474:0;git commit -a -m "fix(package): part4- remove hotjar"
+: 1645023121:0;git commit -a -m "fix(package): part5- fauna headaches"
+: 1645029396:0;yarn prisma generate
+: 1645034003:0;git commit -a -m "fix(package): part6 - got rid of fauna - supabase + prisma "
+: 1645041766:0;git clone https://github.com/mustaqimarifin/pagoda.git
+: 1645042904:0;git commit -a -m "fix(package): changed favicons"
+: 1645080399:0;/Volumes/Kaleidoscope\ 3.2.2/Open\ Gatekeeper\ friendly ; exit;
+: 1645084472:0;git add .
+: 1645084494:0;git commit -a -m "fix(package): merged with umami 1.25"
+: 1645093714:0;git add
+: 1645094330:0;git commit -a -m "feat(site): umami tracking buttons test"
+: 1645095782:0;yarn prisma db push
+: 1645096982:0;git commit -a -m "fix(package): added next router for proper tracking"
+: 1645098472:0;yarn lint
+: 1645098486:0;git commit -a -m "fix(package): added next router for proper tracking3"
+: 1645099599:0;yarn prisma migrate dev
+: 1645099820:0;vercel link
+: 1645099939:0;git commit -a -m "fix(package): prisma"
+: 1645108410:0;git commit -a -m "fix(package): fine..lets try fauna again"
+: 1645109879:0;git commit -a -m "fix(package): fine..lets try fauna again2"
+: 1645248597:0;eslint --fix
+: 1645270217:0;yarn start
+: 1645272917:0;git clone https://github.com/mustaqimarifin/ekswhyzee.git xyz
+: 1645272928:0;code .
+: 1645273178:0;git commit -a -m "fix(package): fine..lets try fauna again45"
+: 1645274190:0;yarn
+: 1645276728:0;git commit -a -m "fix(package): testing out like buttons"
+: 1645277323:0;git commit -a -m "fix(package): testing out like buttons4"
+: 1645277724:0;git commit -a -m "fix(package): testing out like buttons5"
+: 1645278991:0;git commit -a -m "fix(package): testing out like buttons6"
+: 1645279186:0;git commit -a -m "fix(package): testing out like buttons7"
+: 1645279448:0;git commit -a -m "fix(package): testing out like buttons8"
+: 1645280097:0;git branch -a
+: 1645280112:0;git branch
+: 1645280610:0;git clone https://github.com/mustaqimarifin/umami.git
+: 1645281351:0;git init
+: 1645281386:0;git remote add origin https://github.com/mustaqimarifin/pagoda.git
+: 1645281716:0;pagoda
+: 1645281763:0;git commit -a -m "fix(package): updating umami--prisma--nextjs"
+: 1645281770:0;git push -u origin master
+: 1645341411:0;yarn dev\
+: 1645341413:0;yarn dev
+: 1645368169:0;brew services restart skhd
+: 1645368184:0;brew services restart yabai
+: 1645556189:0;yarn add framer-motion@latest
+: 1645568553:0;git clone https://github.com/mustaqimarifin/www.git chaseyou
+: 1645580028:0;yarn build
+: 1645584469:0;yarn lint --fix
+: 1645584513:0;git commit -a -m "fix(package): layout and dhizx"
+: 1645584527:0;git push -u origin main
+: 1645584657:0;brew services run caddy
+: 1645584680:0;caddy reverse-proxy --from dowe.servebeer.com --to 127.0.0.1:8096
+: 1645637736:0;git clone https://github.com/mustaqimarifin/www.git cis
+: 1645712317:0;yarn add -D postcss-import
+: 1645712604:0;yarn dev
+: 1645757025:0;.dotfiles
+: 1645757034:0;~./dotfiles
+: 1645757046:0;~/.dotfiles
+: 1645757067:0;dotfiles
+: 1645757079:0;~/dotfiles
+: 1645757102:0;chmod +X ./dotfiles
+: 1645757115:0;cd dotfiles
+: 1645757315:0;~/.config
+: 1645759964:0;source ~/.zshrc
+: 1645760292:0;znap source marlonrichert/zsh-autocomplete\
+
+: 1645762272:0;d
+: 1645762291:0;l
+: 1645763279:0;*.png
+: 1645763851:0;znap pull
+: 1645763993:0;ls
+: 1645763998:0;speedtest
+: 1645764028:0;xyz
+: 1645764473:0;git status
+: 1645764492:0;git re
+: 1645764498:0;git remote -v
+: 1645764982:0;znap
+: 1645765047:0;znap clean
+: 1645765418:0;znap install zsh-users/zsh-syntax-highlighting marlonrichert/zsh-autocomplete zsh-users/zsh-autosuggestions
+: 1645765429:0;znap status
+: 1645766011:0;znap prompt
+: 1645766074:0;znap restart
+: 1645766159:0;.config
+: 1645766173:0;git add . 
+: 1645767019:0;znap uninstall zcolors 
+: 1645767028:0;git submodule add https://github.com/marlonrichert/zcolors ./zsh/plugins/zcolors
+: 1645767224:0;cd
+: 1645767282:0;znap uninstall zsh-autocomplete zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting 
+: 1645767332:0;git clone --depth 1 -- https://github.com/marlonrichert/zsh-snap.git\
+source zsh-snap/install.zsh
+: 1645767603:0;znap status
+: 1645767659:0;.config
+: 1645767663:0;git add . 
