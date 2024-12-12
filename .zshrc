@@ -1,10 +1,10 @@
-# Download Znap, if it's not there yet.
-[[ -r /Users/oddjobs/dotfiles/zsh/znap/znap.zsh ]] ||
-    git clone --depth 1 -- \
-        https://github.com/marlonrichert/zsh-snap.git /Users/oddjobs/dotfiles/zsh/znap
-source /Users/oddjobs/dotfiles/zsh/znap/znap.zsh  # Start Znap
-
 #!/bin/zsh
+[[ -r "$ZDOTDIR/znap/znap.zsh" ]] ||
+    git clone --depth 1 -- \
+        https://github.com/marlonrichert/zsh-snap.git "$ZDOTDIR/znap"
+source "$ZDOTDIR/znap/znap.zsh"  # Start Znap
+
+
 
 # +------------+
 # | STARTUP |
@@ -20,9 +20,8 @@ alias ls="eza"
 alias lsd="eza -l"
 alias tree="eza -T"
 
-export PATH="/usr/local/opt/curl/bin:$PATH"
-  export LDFLAGS="-L/usr/local/opt/curl/lib"
-  export CPPFLAGS="-I/usr/local/opt/curl/include"
+
+
 # +------------+
 # | NAVIGATION |
 # +------------+
@@ -99,7 +98,7 @@ source <(fzf --zsh)
 #znap eval starship 'starship init zsh --print-full-init'
 #znap prompt
 
-export NVM_DIR="$HOME/dotfiles/nvm"
+export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
@@ -125,27 +124,8 @@ export NVM_DIR="$HOME/dotfiles/nvm"
 
 
 
-# pnpm
-export PNPM_HOME="/Users/oddjobs/dotfiles/local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
 
-# bun completions
-[ -s "/Users/oddjobs/.bun/_bun" ] && source "/Users/oddjobs/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-PATH=~/.console-ninja/.bin:$PATH
-
-export PATH="/Users/oddjobs/Projects/woff2/out:$PATH"
-# Generated for envman. Do not edit.
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-
-export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 #export PATH="/usr/local/opt/sqlite/bin:$PATH" #!!SQLITE CUSTOM
-#echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> /Users/oddjobs/dotfiles/zsh/.zshrc
+#echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> "$ZDOTDIR/.zshrc
+# bun completions
+[ -s "/Users/terrorist/.bun/_bun" ] && source "/Users/terrorist/.bun/_bun"
